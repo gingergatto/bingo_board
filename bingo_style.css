@@ -9,7 +9,7 @@
 
 .x, .X, .х, .Х {
   background-color: var(--bgChecked) !important;  /* Set checked cells to use the X color */
-  border: 3px dashed var(--dottedBorder) !important;
+  border: 2px dashed var(--dottedBorder) !important;
   color: var(--textChecked) !important;
 }
 
@@ -17,7 +17,7 @@
   color: var(--text);
   font-family: "Trebuchet MS", Georgia, serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
 }
 
