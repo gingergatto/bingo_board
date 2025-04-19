@@ -1,7 +1,7 @@
 :root {
-  --circleDiameter: 130px;
-  --bgGray: #c9c9c7;
-  --bgChecked: #b45540;
+  --circleDiameter: 100px;
+  --bgGray: #9a9596;
+  --bgChecked: #63595d;
   --text: #392f2e;
   --textChecked: #c9c9c7;
   --dottedBorder: #392f2e;
