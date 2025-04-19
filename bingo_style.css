@@ -1,7 +1,7 @@
 :root {
   --circleDiameter: 105px;  /* Make the cells smaller */
-  --bgGray: #9a9596;  /* Normal background color */
-  --bgChecked: #63595d;  /* Checked (X) background color */
+  --bgGray: #b3abac;  /* Normal background color */
+  --bgChecked: #805f6a;  /* Checked (X) background color */
   --text: #392f2e;  /* Normal text color */
   --textChecked: #c9c9c7;  /* Text color for checked cells */
   --dottedBorder: #392f2e;  /* Border color */
