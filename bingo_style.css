@@ -1,5 +1,5 @@
 :root {
-  --circleDiameter: 80px;  /* Make the cells smaller */
+  --circleDiameter: 100px;  /* Make the cells smaller */
   --bgGray: #9a9596;  /* Normal background color */
   --bgChecked: #63595d;  /* Checked (X) background color */
   --text: #392f2e;  /* Normal text color */
@@ -15,14 +15,14 @@
 
 .bingo {
   color: var(--text);
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 400;
+  font-family: "Trebuchet MS", Georgia, serif;
+  font-size: 16px;
+  font-weight: 300;
   text-align: center;
 }
 
 .bingo > tbody > tr > td {
-  border: 3px solid rgba(0,0,0,0);
+  border: 2px solid rgba(0,0,0,0);
   width: var(--circleDiameter);
   height: var(--circleDiameter);
   text-align: center;
@@ -31,7 +31,7 @@
 
 .bingo > tbody > tr > td > div {
   background-color: var(--bgGray);  /* Normal background color */
-  border: 3px dashed var(--dottedBorder);
+  border: 2px dashed var(--dottedBorder);
   border-radius: 10%;
   width: var(--circleDiameter);
   height: var(--circleDiameter);
