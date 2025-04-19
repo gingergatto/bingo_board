@@ -1,14 +1,14 @@
 :root {
-  --circleDiameter: 100px;
-  --bgGray: #9a9596;
-  --bgChecked: #63595d;
-  --text: #392f2e;
-  --textChecked: #c9c9c7;
-  --dottedBorder: #392f2e;
+  --circleDiameter: 80px;  /* Make the cells smaller */
+  --bgGray: #9a9596;  /* Normal background color */
+  --bgChecked: #63595d;  /* Checked (X) background color */
+  --text: #392f2e;  /* Normal text color */
+  --textChecked: #c9c9c7;  /* Text color for checked cells */
+  --dottedBorder: #392f2e;  /* Border color */
 }
 
 .x, .X, .х, .Х {
-  background-color: var(--bgChecked) !important;
+  background-color: var(--bgChecked) !important;  /* Set checked cells to use the X color */
   border: 3px dashed var(--dottedBorder) !important;
   color: var(--textChecked) !important;
 }
@@ -30,7 +30,7 @@
 }
 
 .bingo > tbody > tr > td > div {
-  background-color: var(--bgGray);
+  background-color: var(--bgGray);  /* Normal background color */
   border: 3px dashed var(--dottedBorder);
   border-radius: 10%;
   width: var(--circleDiameter);
