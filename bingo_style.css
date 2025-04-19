@@ -1,5 +1,5 @@
 :root {
-  --circleDiameter: 110px;  /* Make the cells smaller */
+  --circleDiameter: 105px;  /* Make the cells smaller */
   --bgGray: #9a9596;  /* Normal background color */
   --bgChecked: #63595d;  /* Checked (X) background color */
   --text: #392f2e;  /* Normal text color */
