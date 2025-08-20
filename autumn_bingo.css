@@ -1,12 +1,12 @@
 :root {
   --circleDiameter: 105px;  
 
-  /* Autumn palette */
-  --bgGray: #f5e0c3;       /* Light beige, like fallen leaves */
-  --bgChecked: #b84a32;    /* Deep pumpkin/orange-red */
-  --text: #5b3a29;          /* Dark brown for normal text */
-  --textChecked: #fbe8d3;   /* Soft cream for checked text */
-  --dottedBorder: #8b5e3c;  /* Rustic brown for borders */
+  /* Dark Autumn palette */
+  --bgGray: #7A6755;       /* Muted taupe gray */
+  --bgChecked: #703E23;    /* Deep earthy reddish-brown */
+  --text: #3C2F25;         /* Very dark brown for normal text */
+  --textChecked: #C9B8A6;  /* Soft warm beige for checked text */
+  --dottedBorder: #5A4433; /* Dark rustic brown for borders */
 }
 
 .x, .X, .х, .Х {
